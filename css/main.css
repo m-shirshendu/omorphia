@@ -49,7 +49,7 @@ ul li {
   /*padding:5px 15px;*/
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #f48e5c;
+  color: #d4aa00;
 }
 .navbar-nav {
   float: none;
@@ -74,7 +74,7 @@ nav {
   /*}*/
 }
 nav .logo.hidden-xs {
-  position: absolute;
+  /*position: absolute;*/
 }
 nav .social-info {
   margin-bottom: 0;
@@ -92,7 +92,7 @@ nav .social-info li a {
   border-right: 1px solid #dedede;
 }
 nav .social-info li a:hover {
-  color: #f48e5c;
+  color: #d4aa00;
 }
 nav .social-info li a i {
   font-size: 2.5rem;
@@ -138,15 +138,15 @@ nav .social-info li a i {
   color: #fff;
 }
 #service .block:hover h3 {
-  color: #f48e5c;
+  color: #d4aa00;
 }
 #service .block:hover .icon {
   border: 1px solid #FFFFFF;
-  background: #f48e5c;
+  background: #d4aa00;
   color: #fff;
-  -webkit-box-shadow: 0 0 0px 2px #f48e5c;
-  -moz-box-shadow: 0 0 0px 2px #f48e5c;
-  box-shadow: 0 0 0px 2px #f48e5c;
+  -webkit-box-shadow: 0 0 0px 2px #d4aa00;
+  -moz-box-shadow: 0 0 0px 2px #d4aa00;
+  box-shadow: 0 0 0px 2px #d4aa00;
 }
 #service .block .icon {
   width: 90px;
@@ -190,11 +190,11 @@ nav .social-info li a i {
   padding-right: 22px;
 }
 #feature .feature-item .icon i {
-  color: #f48e5c;
+  color: #d4aa00;
   font-size: 30px;
 }
 #feature .feature-item h4 {
-  color: #f48e5c;
+  color: #d4aa00;
   margin-bottom: 0;
   font-weight: 300;
   margin-bottom: 8px;
@@ -289,11 +289,34 @@ nav .social-info li a i {
 #subscribe .btn-signup:hover i {
   color: #77c344;
 }
+.footer-border {
+  background-image: url(../assets/images/border.png);
+  height: 54px;
+  width: 100%;
+}
+.footer-silhouette {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  height: 211px;
+  max-width: 850px;
+  margin-top: 15px;
+  background-image: url(../assets/images/silhouette.png);
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
 footer#main-footer {
   /*background: #f9f9f9;*/
-  background-color: #000054;
-  border-top: 1px solid #e8e8e8;
-  padding: 40px 0 20px;
+  /*background-color: #e5d1a9;*/
+  /*background-color: #008eda;*/
+  background-color: rgba(30, 158, 221, 0.45);
+  background-repeat: no-repeat;
+  /*border-top: 1px solid #e8e8e8;*/
+  padding: 80px 0 80px;
+  /*height: 268px;*/
 }
 footer#main-footer .footer-logo {
   margin-bottom: 15px;
